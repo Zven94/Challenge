@@ -1,52 +1,43 @@
-<<<<<<< HEAD
-
-#main {
-=======
-:main {
->>>>>>> ebe0170a1bb15675f253a1de10464e86254ffaec
+main {
   --main-white: #f0f0f0;
   --main-red: #be3144;
   --main-blue: #45567d;
   --main-gray: #303841;
 }
-<<<<<<< HEAD
 #navbar {
-=======
-.navbar {
->>>>>>> ebe0170a1bb15675f253a1de10464e86254ffaec
-    display: flex;
+    
     justify-content: flex-end;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    background: var(--main-red);
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-    z-index: 10;
+    background: var(--main-red); 
+  left: 0;  
+  right: 0;  
+  top: 5px;  
+ height: 30px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+}  
+  #nav-list {
+    display: inline; 
+    margin-right: 2rem;
   }
 
-#nav-list {
-  display: flex;
-  margin-right: 2rem;
-}
+  #nav-list a {
+    display: block;
+    margin: 20px;
+    font-size: 2.2rem;
+    padding: 2rem;
+  }
   
-@media (max-width: 28.75em) {
-    #navbar {
-      justify-content: center;
-    }  
-    #nav-list {
-      margin: 0 1rem;
-      display: block;
-      padding: 5px;
-    }
-   }
- 
+  
 @media only screen and (max-width: 480px) {
     body {
       background-color: lightblue;
     }
   }
-#welcome-section {
+
+  .welcome-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,11 +46,8 @@
     height: 100vh;
     background-color: #000;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-    color: white;
-    
   }
-  
-  #welcome-section > p {
+  .welcome-section > p {
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
@@ -68,14 +56,13 @@
   
   /* Projects section */
   
-  #projects {
+  #projects-section {
     text-align: center;
     padding: 10rem 2rem;
     background: var(--main-blue);
-    color: #D0DAEE;
   }
   
-  #projects-title {
+  #projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid var(--main-white);
@@ -89,7 +76,7 @@
 
   /* Footer */
   
-  footer {
+  #footer {
     position:fixed;
     bottom:0;
     left:0;
@@ -98,7 +85,7 @@
     background-color: #D0DAEE;
   }
   
-  footer > p {
+  #footer > p {
     margin: 2rem;
   }
   
@@ -108,8 +95,4 @@
       text-align: center;
     }
   }
-<<<<<<< HEAD
-  
-=======
->>>>>>> ebe0170a1bb15675f253a1de10464e86254ffaec
   
