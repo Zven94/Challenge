@@ -1,3 +1,4 @@
+
 #main {
   --main-white: #f0f0f0;
   --main-red: #be3144;
@@ -65,8 +66,12 @@
     padding: 10rem 2rem;
     background: var(--main-blue);
     color: #D0DAEE;
+    
   }
-
+img {
+  width: 100%;
+  height: auto;
+}
  
   
   #projects-title {
@@ -76,10 +81,19 @@
   }
 
   .project-tile{
-    text-align: center;
-    padding: 10rem 2rem;
-    background: var(--main-blue);
-    color: #D0DAEE;
+   text-align: center;
+       
+  }
+
+  #imgs{
+    
+
+    display: grid;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    
+
   }
   
   @media (max-width: 28.75em) {
