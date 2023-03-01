@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 
 #main {
+=======
+:main {
+>>>>>>> ebe0170a1bb15675f253a1de10464e86254ffaec
   --main-white: #f0f0f0;
   --main-red: #be3144;
   --main-blue: #45567d;
   --main-gray: #303841;
 }
+<<<<<<< HEAD
 #navbar {
+=======
+.navbar {
+>>>>>>> ebe0170a1bb15675f253a1de10464e86254ffaec
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -100,5 +108,8 @@
       text-align: center;
     }
   }
+<<<<<<< HEAD
   
+=======
+>>>>>>> ebe0170a1bb15675f253a1de10464e86254ffaec
   
